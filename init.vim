@@ -66,4 +66,5 @@ set completeopt=longest,menuone
 colorscheme hybrid
 
 call plug#begin('~/.local/share/nvim/plugged')
+Plug 'christoomey/vim-tmux-navigator'
 call plug#end()
