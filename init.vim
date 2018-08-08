@@ -60,13 +60,14 @@ set listchars=tab:\|\ ,eol:↩
 let mapleader = ","
 
 " Auto-complete menu
-set completeopt=longest,menuone
+set completeopt=preview,longest,menuone
 
 " Use the hybrid dark colorscheme "
 colorscheme hybrid
 
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'ervandew/supertab'
 Plug 'hashivim/vim-terraform'
 Plug 'juliosueiras/vim-terraform-completion'
 Plug 'tpope/vim-fugitive'
