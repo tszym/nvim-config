@@ -67,6 +67,8 @@ colorscheme hybrid
 
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'christoomey/vim-tmux-navigator'
+" Help close delimiters as opened
+Plug 'jiangmiao/auto-pairs'
 Plug 'ervandew/supertab'
 Plug 'hashivim/vim-terraform'
 Plug 'juliosueiras/vim-terraform-completion'
