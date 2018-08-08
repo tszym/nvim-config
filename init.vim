@@ -69,6 +69,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'hashivim/vim-terraform'
 Plug 'juliosueiras/vim-terraform-completion'
+Plug 'tpope/vim-fugitive'
 call plug#end()
 "
 """""""""""""
