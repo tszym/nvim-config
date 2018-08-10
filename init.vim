@@ -73,6 +73,7 @@ Plug 'ervandew/supertab'
 Plug 'hashivim/vim-terraform'
 Plug 'juliosueiras/vim-terraform-completion'
 Plug 'tpope/vim-fugitive'
+Plug 'ludovicchabant/vim-gutentags'
 call plug#end()
 "
 """""""""""""
@@ -88,3 +89,7 @@ let g:terraform_registry_module_completion = 0
 let g:terraform_align=1
 let g:terraform_fold_sections=1
 let g:terraform_remap_spacebar=1
+
+"""""""""""""
+" vim-gutentags config
+let g:gutentags_cache_dir = '~/.cache/vim-gutentags'
