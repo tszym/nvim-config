@@ -74,6 +74,9 @@ Plug 'hashivim/vim-terraform'
 Plug 'juliosueiras/vim-terraform-completion'
 Plug 'tpope/vim-fugitive'
 Plug 'ludovicchabant/vim-gutentags'
+
+Plug 'rking/ag.vim', { 'on': 'Ag' }
+Plug 'mhinz/vim-grepper', { 'on': ['Grepper', '<plug>(GrepperOperator)'] }
 call plug#end()
 "
 """""""""""""
