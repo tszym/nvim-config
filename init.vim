@@ -71,7 +71,7 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'jiangmiao/auto-pairs'
 Plug 'ervandew/supertab'
 Plug 'hashivim/vim-terraform'
-Plug 'juliosueiras/vim-terraform-completion'
+Plug 'juliosueiras/vim-terraform-completion', { 'for': 'terraform' }
 Plug 'tpope/vim-fugitive'
 Plug 'ludovicchabant/vim-gutentags'
 
