@@ -77,6 +77,8 @@ Plug 'ludovicchabant/vim-gutentags'
 
 Plug 'rking/ag.vim', { 'on': 'Ag' }
 Plug 'mhinz/vim-grepper', { 'on': ['Grepper', '<plug>(GrepperOperator)'] }
+
+Plug 'neomake/neomake'
 call plug#end()
 "
 """""""""""""
@@ -96,3 +98,8 @@ let g:terraform_remap_spacebar=1
 """""""""""""
 " vim-gutentags config
 let g:gutentags_cache_dir = '~/.cache/vim-gutentags'
+
+"""""""""""""
+" Neomake config
+let g:neomake_open_list = 2
+call neomake#configure#automake('w')
