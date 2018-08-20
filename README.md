@@ -12,4 +12,5 @@ Gutentags will require ctags. `pacan -S ctags`
 
 # Configuration
 
-Neomake's makers and linters can quickly be annoying depending on your habits and the codebase you deal with. See the neomake config section. Lining will be sown if the filetype is recognized and the linter is installed (yamllint, shellcheck and so on).
+Neomake's makers and linters can quickly be annoying depending on your habits and the codebase you deal with.
+See the neomake config section. Linting will be shown if the filetype is recognized and the linter is installed (yamllint, shellcheck and so on).
