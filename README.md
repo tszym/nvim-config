@@ -8,7 +8,7 @@ This will require [the vim-plug window manager](https://github.com/junegunn/vim-
 
 Make sure you run a `:checkhealth` command and follow the instructions to install the ruby client (needed for terraform plugins).
 
-Gutentags will require ctags. `pacan -S ctags`
+Gutentags will require ctags. `pacman -S ctags`
 
 # Configuration
 
