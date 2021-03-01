@@ -14,3 +14,7 @@ Gutentags will require ctags. `pacman -S ctags`
 
 Neomake's makers and linters can quickly be annoying depending on your habits and the codebase you deal with.
 See the neomake config section. Linting will be shown if the filetype is recognized and the linter is installed (yamllint, shellcheck and so on).
+
+# Plugins
+
+Plugins need to be loaded: `:PlugUpdate`
